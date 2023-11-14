@@ -1,0 +1,152 @@
+Version 3.0 :
+
+Total remake of the client !
+
+	- Needs VLC installed on computer for music
+        - Panel + boxes are now transparents
+	- BG dimensions 1280x800 Type png !!! Really important !!!
+	- Added section "News"
+	- Added progress bar on GUI
+	- Added server status
+	- Sizers moved to horizontal
+	- Added possibility to modify welcome message
+
+For the "news" section :
+
+	- Just add your server's news page URL in "client_config.conf" at line 6.
+	- Webmaster must create adapted template for news display !
+
+Modify welcome message :
+
+	- Just add "welcome.txt" file's URL in "client_config.conf" at line 7.
+
+"client_config.conf" stucture In this order, one entry per line :
+
+	- Update server's URL
+	- Website's URL
+	- Files to update extensions (separated by a coma, example: pak,exe,html)
+	- EXE to launch name (must be in SAME DIRECTORY as LAUNCHER)
+	- Folder for downloaded files /!\ write none if downloading in same folder as launcher /!\
+	- "news" page's URL
+	- "welcome.txt" file's URL
+
+Added a ".htaccess" to place in the folder where the files to DownLoad are
+
+/!\ "client_config.conf" & "welcome.txt" must stay on server's side ! Don't give it to players ! /!\
+
+
+
+
+Contact :
+
+fawn06220@gmail.com
+-------------------------------------------------------------------------------------
+Version 2.1 :
+
+
+
+(dimensions fond : 520x765 px)
+
+MD5 Hash & Content-MD5 in HTTP header files verification ! ;)
+
+-(background dimensions: 520x765 px)
+
+- "client_config.conf" stucture In this order, one entry per line :
+
+-Update server's adress
+-Website adress
+-files to update extensions (separated by a coma, example: pak,exe,html)
+-EXE to launch name (must be in SAME DIRECTORY as LAUNCHER)
+-Folder for downloaded files /!\ write none if downloading in same folder as launcher /!\
+-HEXADECIMAL CODE OF THE MENUS COLOUR
+
+
+
+(background dimensions : 520x765 px)
+
+No more timezone config, files verification on MD5 Hash ! ;)
+
+Pros : No more timezone config for players, more user friendly
+
+cons : Can take some time depending of internet connection and remote file size
+
+Contact :
+
+fawn06220@gmail.com
+
+-------------------------------------------------------------------------------------------
+
+Version 1.0 :
+
+Hello ! Hello !
+
+New Updates :
+
+- Added "PAYPAL" donation button 
+
+- Added "hours" field in CONFIG*** (ps: see explanations under)
+
+- Ecriture d'une fonction de comparaison de fichiers sur la date de modification
+
+*** : 
+-Think of setting up your time zone and tell your players to do so
+It's necessary for updates, to do so just go to "SETTINGS", tick "I accept"
+then in "hours" field put the number corresponding to your server GMT+? 
+example : I am in France my server is at GMT+1 so i put 1 into "hours"
+then just press ok
+
+- Works with nagtive values too for example put -5 in hours if your server is located in
+this timezone !
+
+-GMT zones Image in README FILES folder
+
+
+---------------------------------------------------------------------------------------------------
+
+Version 0.3a :
+
+Hi ! Major changes for this update !
+
+- Users not allowed to modify all settings anymore...(Anti trolls mode ON :p)
+
+- Now Server Admin has to edit a "client_config.conf" file and put it somewhere on internet,
+
+example : http://ninjaaior.free.fr/client_config.conf (u can have a look at it, i use it for
+
+local tests) and then give this adress to his players or set it manually before distribution
+
+in "file_config.conf" However works well !
+
+- Added warning for editing settings !
+
+- "client_config.conf" stucture In this order, one entry per line :
+
+Update server's adress
+Website adress
+files to update extensions (separated by a coma, example: pak,exe,html)
+EXE to launch name (must be in SAME DIRECTORY as LAUNCHER)
+Folder for downloaded files /!\ write none if downloading in same folder as launcher /!\
+HEXADECIMAL CODE OF THE MENUS COLOUR
+
+
+- If you change destination folder it MUST exist already !
+
+
+----------------------------------------------------------------------------------------------------
+                                        
+
+Version 0.2a :
+
+- You can change the extensions of "files to update"
+
+- Full English/French Client (via lists cf sourcecode)
+
+- Possibility of setting the website adress 
+
+- Possibility of setting "EXE to launch" name's
+
+- Possibility of changing music by replacing "zik.mp3" file
+
+- Images can be replaced in "img" folder 
+
+
