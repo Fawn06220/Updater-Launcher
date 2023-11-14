@@ -57,8 +57,8 @@ l_bad_exe=[u"Nom de l'EXE incorrect !",u"Wrong EXE name !"]
 l_err_bat=[u"Erreur d'EXE non-valide !\n\nImpossible de lancer\nle jeu !\n\nContactez un ADMIN !!! ",u"Error of non-valid\nEXE name !\n\nImpossible to launch !\n\nContact an ADMIN !!!"]
 l_err_net=[u"PROBLEME DE CONNEXION !\n\nVERIFIEZ L'ETAT DU SERVEUR !\n\nOU\n\nVERIFIEZ LA CONNEXION INTERNET !",u"IMPOSSIBLE TO CONNECT !\n\nVERIFY SERVER IS ONLINE !\n\n\n\nOR\n\n\n\nVERIFY INTERNET CONNECTION !"]
 l_net_title=[u"PROBLEME DE CONNEXION !",u"CONNEXION WARNING !"]
-l_secu_txt=[u"/!\ ATTENTION /!\ MODIFIER CETTE ADRESSE PEUT NUIRE AU BON FONCTIONNEMENT DU CLIENT !\nNE LE FAIRE QUE SUR DEMANDE D'UN ADMIN !\nCOCHEZ LA BOX POUR CONTINUER QUAND MEME...",
-                u"/!\ WARNING /!\ MODIFY THIS ADRESS CAN CAUSE CLIENT MALFUNCTION !\nDO IT ON ADMIN'S REQUEST ONLY !\nCHECK THE BOX TO CONTINUE HOWEVER..."]
+l_secu_txt=[u"/!\\ ATTENTION /!\\ MODIFIER CETTE ADRESSE PEUT NUIRE AU BON FONCTIONNEMENT DU CLIENT !\nNE LE FAIRE QUE SUR DEMANDE D'UN ADMIN !\nCOCHEZ LA BOX POUR CONTINUER QUAND MEME...",
+                u"/!\\ WARNING /!\\ MODIFY THIS ADRESS CAN CAUSE CLIENT MALFUNCTION !\nDO IT ON ADMIN'S REQUEST ONLY !\nCHECK THE BOX TO CONTINUE HOWEVER..."]
 l_check=[u"J'ACCEPTE",u"I ACCEPT"]
 l_folder=[u"Répertoire de téléchargement :",u"Downloads folder :"]
 l_donate=[u"FAIRE UN DON",u"MAKE A DONATION"]
@@ -342,7 +342,7 @@ class MyFrame(wx.Frame):
                     winreg.SetValueEx(key, u"Launcher Version", 0,  winreg.REG_SZ, u"v3.1")
                     winreg.SetValueEx(key, u"Argument", 0,  winreg.REG_SZ, u"not_used")
                     winreg.SetValueEx(key, u"Launcher", 0,  winreg.REG_SZ, u"Updater_Launcher.exe")
-                    winreg.SetValueEx(key, u"Install_Dir", 0,  winreg.REG_SZ, u"C:\Pangya eXtremV2")
+                    winreg.SetValueEx(key, u"Install_Dir", 0,  winreg.REG_SZ, u"C:\\Pangya eXtremV2")
                     winreg.SetValueEx(key, u"PatchNum", 0,  winreg.REG_SZ, u"184")
                     winreg.SetValueEx(key, u"IntegratedPak", 0,  winreg.REG_SZ, u"projectg500+.pak")
                     winreg.SetValueEx(key, u"Ver", 0,  winreg.REG_SZ, u"TH.R4.584.04")
