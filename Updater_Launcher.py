@@ -1,6 +1,4 @@
 #-*- coding: utf-8 -*-
-
-#Imports
 #Imports
 import wx
 import hashlib
